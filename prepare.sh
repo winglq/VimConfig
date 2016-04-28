@@ -2,7 +2,7 @@ if [ ! -d ~/.vim ]; then
   mkdir ~/.vim
 fi
 #copy vim configuration
-cp ./vimrc ~/.vimrc
+cp ./.vimrc ~
 #copy autoload
 cp -r ./autoload ~/.vim 
 
