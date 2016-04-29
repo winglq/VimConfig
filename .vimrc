@@ -51,6 +51,7 @@ endif
 if filereadable("/etc/vim/vimrc.local")
   source /etc/vim/vimrc.local
 endif
+set laststatus=2
 set nu!
 filetype off
 call pathogen#infect()
@@ -67,3 +68,4 @@ set completeopt=menuone,longest,preview
 map <leader>tl <Plug>TaskList
 map <leader>nd :NERDTreeToggle<CR>
 nmap <leader>a <Esc>:Ack!
+set statusline=%<%F%1*%m%*%r%y%=%b\ 0x%B\ \ [l,c]%l,%c%V\ %p%%\ %{fugitive#statusline()}
