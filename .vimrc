@@ -51,6 +51,7 @@ endif
 if filereadable("/etc/vim/vimrc.local")
   source /etc/vim/vimrc.local
 endif
+set nu!
 filetype off
 call pathogen#infect()
 call pathogen#helptags()
@@ -64,3 +65,4 @@ au FileType python set omnifunc=pythoncomplete#Complete
 let g:SuperTabDefaultCompletionType = "context"
 set completeopt=menuone,longest,preview
 map <leader>d <Plug>TaskList
+map <leader>n :NERDTreeToggle<CR>
