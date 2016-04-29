@@ -66,3 +66,4 @@ let g:SuperTabDefaultCompletionType = "context"
 set completeopt=menuone,longest,preview
 map <leader>d <Plug>TaskList
 map <leader>n :NERDTreeToggle<CR>
+nmap <leader>a <Esc>:Ack!
