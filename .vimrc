@@ -64,6 +64,6 @@ let g:pep8_map='<leader>8'
 au FileType python set omnifunc=pythoncomplete#Complete
 let g:SuperTabDefaultCompletionType = "context"
 set completeopt=menuone,longest,preview
-map <leader>d <Plug>TaskList
-map <leader>n :NERDTreeToggle<CR>
+map <leader>tl <Plug>TaskList
+map <leader>nd :NERDTreeToggle<CR>
 nmap <leader>a <Esc>:Ack!
