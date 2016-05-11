@@ -70,4 +70,4 @@ map <leader>nd :NERDTreeToggle<CR>
 nmap <leader>a <Esc>:Ack!
 set statusline=%<%F%1*%m%*%r%y%=%b\ 0x%B\ \ [l,c]%l,%c%V\ %p%%\ %{fugitive#statusline()}
 nnoremap <silent> <F5> :!clear;python %<CR>
-g:sh_fold_enabled=1
+set foldmethod=marker
