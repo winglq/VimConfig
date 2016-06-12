@@ -72,3 +72,4 @@ set statusline=%<%F%1*%m%*%r%y%=%b\ 0x%B\ \ [l,c]%l,%c%V\ %p%%\ %{fugitive#statu
 nnoremap <silent> <F5> :!clear;python %<CR>
 set hlsearch
 set foldmethod=marker
+set list
