@@ -73,3 +73,4 @@ nnoremap <silent> <F5> :!clear;python %<CR>
 set hlsearch
 set foldmethod=marker
 set list
+set expandtab  
