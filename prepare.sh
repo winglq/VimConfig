@@ -12,4 +12,3 @@ git submodule update
 
 #copy submodules to .vim
 cp -r ./bundle ~/.vim
-pip install jedi
