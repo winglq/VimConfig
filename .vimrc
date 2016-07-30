@@ -75,3 +75,4 @@ set foldmethod=marker
 set list
 set expandtab  
 set colorcolumn=80
+colorscheme solarized
