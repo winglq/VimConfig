@@ -10,14 +10,12 @@ cp -r ./autoload ~/.vim
 git submodule init
 git submodule update
 
-git clone https://github.com/vim-scripts/eclipse.vim.git
 git clone https://github.com/tomasr/molokai.git
 git clone https://github.com/altercation/solarized.git
 
 #copy submodules to .vim
 mkdir -p ~/.vim/colors
 cp -r ./bundle ~/.vim
-cp -r eclipse/colors/* ~/.vim/colors
 cp -r molokai/colors/* ~/.vim/colors
 cp -r solarized/vim-colors-solarized/colors/* ~/.vim/colors
 pip install jedi
