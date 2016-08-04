@@ -58,6 +58,8 @@ call pathogen#helptags()
 set foldmethod=indent
 set foldlevel=99
 filetype on
+filetype plugin indent on
+let g:python_pep8_indent_multiline_string
 let g:pyflakes_use_quickfix = 0
 let g:pep8_map='<leader>8'
 au FileType python set omnifunc=pythoncomplete#Complete
