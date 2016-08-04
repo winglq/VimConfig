@@ -76,3 +76,4 @@ set list
 set expandtab  
 set colorcolumn=80
 colorscheme solarized
+set t_Co=256
