@@ -53,13 +53,11 @@ if filereadable("/etc/vim/vimrc.local")
 endif
 set laststatus=2
 set nu!
-filetype off
 call pathogen#infect()
 call pathogen#helptags()
 set foldmethod=indent
 set foldlevel=99
 filetype on
-filetype plugin indent on
 let g:pyflakes_use_quickfix = 0
 let g:pep8_map='<leader>8'
 au FileType python set omnifunc=pythoncomplete#Complete
