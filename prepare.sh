@@ -14,4 +14,7 @@ git submodule update
 cp -r ./bundle ~/.vim
 #copy color scheme
 cp -r ./colors/solarized/vim-colors-solarized/colors/* ~/.vim/colors
-pip install jedi
+sudo pip install jedi
+
+(pip freeze | grep colorama==0.3.6) && sudo pip install --upgrade colorama
+

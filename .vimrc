@@ -76,3 +76,9 @@ set expandtab
 set colorcolumn=80
 colorscheme solarized
 set t_Co=256
+map <Leader>p :call InsertLine()<CR>
+
+function! InsertLine()
+  let trace = expand("import pdb; pdb.set_trace()")
+  execute "normal o".trace
+endfunction
