@@ -18,3 +18,4 @@ sudo pip install jedi
 
 (pip freeze | grep colorama==0.3.6) && sudo pip install --upgrade colorama
 
+yum install -y ctags

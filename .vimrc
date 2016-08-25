@@ -82,3 +82,5 @@ function! InsertLine()
   let trace = expand("import pdb; pdb.set_trace()")
   execute "normal o".trace
 endfunction
+
+set listchars=tab:>-
