@@ -5,3 +5,4 @@ git submodule add http://github.com/tpope/vim-fugitive.git bundle/fugitive
 git submodule add https://github.com/hynek/vim-python-pep8-indent.git bundle/vim-python-pep8-indent
 git submodule add https://github.com/altercation/solarized.git colors/solarized
 git submodule add https://github.com/davidhalter/jedi-vim.git bundle/jedi-vim
+git submodule add https://github.com/fatih/vim-go.git ~/.vim/bundle/vim-go
