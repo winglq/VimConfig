@@ -19,3 +19,7 @@ sudo pip install jedi
 (pip freeze | grep colorama==0.3.6) && sudo pip install --upgrade colorama
 
 yum install -y ctags
+
+echo "The following error is due to vim with py3. If ubuntu install  vim-nox-py"
+echo "Could not load jedi python module: module 'jedi' has no attribute '__version__'"
+
